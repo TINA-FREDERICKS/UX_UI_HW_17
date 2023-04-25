@@ -1,0 +1,29 @@
+/*Poppins Font*/
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+
+
+
+
+
+:root{
+    --Primary:#4d7263;
+    --lightgreen:#bad7cb;
+    --Secondary:#000000;
+    --White: #ffffff;
+
+
+
+
+
+
+--bodyFont: font-family: 'Delicious Handrawn', cursive;
+--h1-fontSize: 3rem;
+--h2-fontSize: 3rem;
+--h3-fontSize: 3rem;
+--h4-fontSize: 2.125rem;
+--h5-fontSize: 1.5rem;
+--button-font: 0.875rem;
+
+--body-max-width: 1320px;
+
+}

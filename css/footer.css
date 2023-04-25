@@ -1,0 +1,14 @@
+footer{
+    text-align: center;
+    margin-top: 200px;
+    background: var(--Secondary);
+}
+
+.footerTitle{
+    margin-bottom: 12px;
+    color: var(--White);
+}
+
+.footerNote{
+    color: var(--White);
+}

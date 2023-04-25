@@ -1,0 +1,69 @@
+@import url(./variables.css);
+@import url(./button.css);
+@import url(./card.css);
+@import url(./footer.css);
+body{
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+    background: var(--Primary);
+}
+h3{
+    font-size: var(--h3-fontSize);
+}
+h4{
+    font-size: var(--h4-fontSize);
+}
+h5{
+    font-size: var(--h5-fontSize);
+}
+
+.topNav{
+    display: flex;
+    background-color: var(--lightgreen);
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: var(--Secondary);
+    padding: 10px;
+
+}
+
+nav a:hover{
+    color: var(--Primary);
+    background-color: white;
+}
+
+.hero{
+    padding: 80px 92px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 1320px;
+    justify-content: center;
+    margin: auto;
+}
+
+.headShot{
+    width: 365px;
+    padding: 34px 40px;
+}
+
+.avatar{
+    width: 100%;
+}
+.heroContent{
+    max-width: 613px;
+}
+
+.logo{
+    height:80px ;
+}
+
+.projects h4{
+    text-align: center;
+}
+
