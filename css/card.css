@@ -1,18 +1,21 @@
 .cards{
-    max-width: var(--body-max-width);
+    max-width: 296px;
+    min-width: 296px;
     display: flex;
     gap: 10px;
     justify-content: center;
+    margin: auto;
 }
 .card{
     border: 1px solid var(--lightgreen);
-   
+    
 }
 .cardContent{
     padding: 16px;
 }
 .cardImage{
-    width: 100%;
+    width: 296px;
+    height: 289px;
 }
 .contentTitle{
     margin-top: 0px;
